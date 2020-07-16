@@ -1,51 +1,51 @@
 {
-	"name": "uvrun2",
-	"version": "0.4.0",
-	"description": "NodeJS binding to uv_run (..., UV_RUN_ONCE) in libuv and synchronizing of asynchronous functions",
-	"author": {
-		"name": "Jeff Walter",
-		"email": "jeff@404ster.com"
-	},
-	"contributors": [
-		{
-			"name": "a-parser",
-			"url": "https://github.com/a-parser"
-		}
-	],
-	"homepage": "https://github.com/jeffwalter/node-uvrun2#readme",
-	"readmeFilename": "README.md",
-	"license": "MIT",
-	"licenseFilename": "LICENSE.md",
-	"keywords": [
-		"libuv",
-		"uv",
-		"event",
-		"async",
-		"wait",
-		"sleep",
-		"condvar"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+ssh://git@github.com/jeffwalter/node-uvrun2.git"
-	},
-	"bugs": {
-		"url": "https://github.com/jeffwalter/node-uvrun2/issues"
-	},
-	"engines": {
-		"node": ">=12.0"
-	},
-	"scripts": {
-		"install": "node-gyp rebuild",
-		"test": "node_modules/mocha/bin/mocha test/test.js"
-	},
-	"gypfile": true,
-	"main": "lib/uvrun2.js",
-	"devDependencies": {
-		"mocha": "*"
-	},
-	"_id": "uvrun2@0.3.0",
-	"dependencies": {
-		"node-gyp": "*"
-	}
+  "name": "uvrun2",
+  "version": "0.4.0",
+  "description": "NodeJS binding to uv_run (..., UV_RUN_ONCE) in libuv and synchronizing of asynchronous functions",
+  "author": {
+    "name": "Jeff Walter",
+    "email": "jeff@404ster.com"
+  },
+  "contributors": [
+    {
+      "name": "a-parser",
+      "url": "https://github.com/a-parser"
+    }
+  ],
+  "homepage": "https://github.com/jeffwalter/node-uvrun2#readme",
+  "readmeFilename": "README.md",
+  "license": "MIT",
+  "licenseFilename": "LICENSE.md",
+  "keywords": [
+    "libuv",
+    "uv",
+    "event",
+    "async",
+    "wait",
+    "sleep",
+    "condvar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jeffwalter/node-uvrun2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeffwalter/node-uvrun2/issues"
+  },
+  "engines": {
+    "node": ">=12.0"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "mocha test/test.js"
+  },
+  "gypfile": true,
+  "main": "lib/uvrun2.js",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "_id": "uvrun2@0.3.0",
+  "dependencies": {
+    "node-gyp": "^7.0.0"
+  }
 }
